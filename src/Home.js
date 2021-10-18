@@ -1,9 +1,19 @@
+import Footer from "./Footer";
+
+
 
 function Home(){
     return (
         <div>
-
-            <h1>Welcome Home Guys</h1>
+         <div>
+             <div> 
+                 <h3>Carousel here ....</h3>
+             </div>
+             <div>
+                 <h3>Login form here ....</h3>
+             </div>
+         </div>
+         <Footer/>
         </div>
     )
 }

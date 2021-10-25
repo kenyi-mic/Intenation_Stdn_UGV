@@ -1,4 +1,4 @@
-import Footer from "./Footer";
+
 import Banner from './Banner'
 
 
@@ -14,7 +14,6 @@ function Home(){
                  <h3>Login form here ....</h3>
              </div>
          </div>
-         <Footer/>
         </div>
     )
 }

@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom'
 function Header() {
     return (
         <div className="">
-            
+            <p id="up"></p>
             {/*Navigations*/}
             <div className="flex border-b-2 border-gray-300  bg-gray-900 text-white justify-around w-full mx-auto"> 
                 {/*Logo*/}

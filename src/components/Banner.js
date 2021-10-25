@@ -20,7 +20,7 @@ function Banner() {
           <img src="https://int.ugv.edu.bd/images/slider_images/1574257058.JPG" alt="" />
         </div>
         <div>
-          <img src="https://cutt.ly/FRleLbN" alt="" />
+          <img src="https://photos.google.com/photo/AF1QipM6mKFj2CijVUpXPnAhG02wkZpWpWhtYYpSpTQ" alt="" />
         </div>
       </Carousel>
     </div>

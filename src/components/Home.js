@@ -1,4 +1,5 @@
 import Footer from "./Footer";
+import Banner from './Banner'
 
 
 
@@ -7,7 +8,7 @@ function Home(){
         <div>
          <div>
              <div> 
-                 <h3>Carousel here ....</h3>
+               <Banner/>
              </div>
              <div>
                  <h3>Login form here ....</h3>

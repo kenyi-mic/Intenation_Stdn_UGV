@@ -6,7 +6,7 @@ function Header() {
         <div className="">
             
             {/*Navigations*/}
-            <div className="flex border-b-2 border-gray-300  justify-around w-full mx-auto"> 
+            <div className="flex border-b-2 border-gray-300  bg-gray-900 text-white justify-around w-full mx-auto"> 
                 {/*Logo*/}
                 
             <div className="bg-red-800 flex ">
@@ -14,7 +14,7 @@ function Header() {
                 <img src="https://cutt.ly/EE8VJcc" alt="logo" width={100} height={100}/>
                 </Link>
             </div>
-              <ul className="flex items-center justify-space-around md:space-x-10 sm:space-x-10 font-semibold">
+              <ul className="flex items-center justify-space-around  md:space-x-10 sm:space-x-10 font-semibold">
                   <li>
                       <Link to="/" >Home</Link>
                   </li>

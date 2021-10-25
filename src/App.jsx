@@ -1,13 +1,13 @@
 import React from 'react'
-import Header from './Header'
-import Home from './Home'
-import About from './About'
-import Profile from './Profile'
-import Gallery from './Gallery'
-import Contact from './Contact'
-import FAQ from './Faq'
+import Header from './components/Header'
+import Home from './components/Home'
+import About from './components/About'
+import Profile from './components/Profile'
+import Gallery from './components/Gallery'
+import Contact from './components/Contact'
+import FAQ from './components/Faq'
 import {BrowserRouter as Router, Route, Link, Switch}from 'react-router-dom'
-import Footer from './Footer'
+import Footer from './components/Footer'
 
 
 

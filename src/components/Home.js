@@ -1,22 +1,17 @@
+import Banner from "./Banner";
+import Main from './Main'
 
-import Banner from './Banner'
-
-
-
-function Home(){
-    return (
+function Home() {
+  return (
+    <div>
+      <div>
         <div>
-         <div>
-             <div> 
-               <Banner/>
-             </div>
-             <div>
-                 <h3>Login form here ....</h3>
-             </div>
-         </div>
+          <Banner />
         </div>
-    )
+        <Main/>
+      </div>
+    </div>
+  );
 }
-
 
 export default Home;

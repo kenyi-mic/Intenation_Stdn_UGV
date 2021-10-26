@@ -11,12 +11,16 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 function Footer() {
     return (
         <div>
+            {/*Arrow button */}
           <div className="bg-transparent">
            <a href="#up"  className="grid grid-cols-1 text-bold place-items-center">
-               <  ArrowUpIcon className=" hover:text-yellow-700 h-5 w-5 text-blue-500 mb-5"/>
+               <  ArrowUpIcon className=" hover:text-yellow-700 h-5 w-5 text-blue-500 p-5"/>
                
            </a>
           </div>
+
+          {/* footer linka */}
+
           <div className="bg-gray-900 text-white grid grid-flow-row-dense grid-cols-4 border border-l-white w-full m-auto p-10">
           <div>
            <h5 className="font-bold">Learn More</h5>
@@ -44,7 +48,14 @@ function Footer() {
            <p><PhoneIcon className="h-5 w-5"/>+8810824035899</p>
           </div>
           </div>
-          
+          {/*copyright statement */}
+          <hr className="text-bold"/>
+          <div className="bg-gray-900 box-border">
+           <p className="text-center md:pt-4 md:pb-4 text-sm text-white">International Studens | <a href="https://ugv.edu.bd" className="text-yellow-500">UGV</a> &copy; 2021 | Buid by <a href="" className="hover:text-blue-500 ">Hyperdevs</a></p>
+          </div>
+          <hr/>
+          <div className="w-full h-7 bg-black"></div>
+          <hr/>
         </div>
     )
 }

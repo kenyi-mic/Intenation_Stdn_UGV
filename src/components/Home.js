@@ -8,6 +8,7 @@ function Home() {
         <div>
           <Banner />
         </div>
+        <img src="http://placehold.it/" alt="background"/>
         <Main/>
       </div>
     </div>

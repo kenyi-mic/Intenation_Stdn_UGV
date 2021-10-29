@@ -221,7 +221,7 @@ function Profile() {
             {students.emma.name} {students.emma.clasOf}
           </h2>
           <p className="pt-6 md:p-8  space-y-4 text-bold">
-            Hello, My name <strong>{students.emma.name}</strong> student of{" "}
+            Hello, My name is <strong>{students.emma.name}</strong> student of{" "}
             {students.emma.course} in university of global village, I'm
             concerntrating on Graphic Design and video animations.
             Extra-curriculum in UGV design club and building automated machines.

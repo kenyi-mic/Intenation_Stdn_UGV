@@ -8,7 +8,9 @@ module.exports = {
         'home-bg': "url('/public/images/bg.jpeg)",
         
       },
-     
+      maxHeight: {
+       'bannerHeight':'28.5rem'
+     }
     },
   },
   variants: {

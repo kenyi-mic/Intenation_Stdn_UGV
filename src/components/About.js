@@ -6,7 +6,7 @@ function About() {
       <div className="grid grid-flow-row-dense sm:grid-cols-1 md:grid-cols-2 py-5 lg:grid-cols-2">
         {/*photos */}
         <div className="m-4">
-          <img className="img-responsive rounded-xl h-72" src="https://cutt.ly/6Rg3dyM" alt="todo..." />
+          <img className="img-responsive rounded-xl h-72" src="https://buff.ly/3moluYK" alt="UGV international students" />
         </div>
         {/*About statement */}
         <div className="bg-home-bg m-4">

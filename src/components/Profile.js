@@ -60,7 +60,7 @@ function Profile() {
       country: "South Sudan",
     },
     marline: {
-      name: "Marline Abuka",
+      name: "Marilin Abuka",
       age: 21,
       img: "https://int.ugv.edu.bd/images/student_images/1582113411.jpg",
       course: "Business Administration",
@@ -93,10 +93,10 @@ function Profile() {
           alt=""
         />
         <div className=" ">
-          <h2 className="pt-6 md:p-8 text-center md:text-left space-y-4 text-gray-900 text-3xl my-3">
+          <h2 className=" md:px-8 text-center md:text-left text-gray-900 text-3xl">
             {students.michael.name} {students.michael.clasOf}
           </h2>
-          <p className="pt-6 md:p-8  space-y-4 text-bold ">
+          <p className="pt-6 md:px-8  space-y-4 text-bold ">
             Hi, I'm <strong>{students.michael.name}</strong> AKA Kenyi, I'm
             student of {students.michael.course} concerntrating on Wep
             Application &#38; Mobile App development. Extra-Curriculum in
@@ -117,10 +117,10 @@ function Profile() {
           alt=""
         />
         <div className="">
-          <h2 className="pt-6 md:p-8 text-center md:text-left space-y-4 text-gray-900 text-3xl my-3">
+          <h2 className=" md:px-8 text-center md:text-left space-y-4 text-gray-900 text-3xl">
             {students.duol.name} {students.duol.clasOf}
           </h2>
-          <p className="pt-6 md:p-8  space-y-4 text-bold">
+          <p className="pt-6 md:px-8  space-y-4 text-bold">
             Hi, I'm <strong>{students.duol.name}</strong> from{" "}
             {students.duol.country} currently student in UGV doing{" "}
             {students.duol.course}, concerntrating on building Web Applications
@@ -142,10 +142,10 @@ function Profile() {
           alt=""
         />
         <div className="">
-          <h2 className="pt-6 md:p-8 text-center md:text-left space-y-4 text-gray-900 text-3xl my-3">
+          <h2 className=" md:px-8 text-center md:text-left space-y-4 text-gray-900 text-3xl ">
             {students.marline.name} {students.marline.clasOf}
           </h2>
-          <p className="pt-6 md:p-8  space-y-4 text-bold">
+          <p className="pt-6 md:px-8  space-y-4 text-bold">
             Hello, My name <strong>{students.marline.name}</strong> from{" "}
             {students.marline.country} I'm a senior studying{" "}
             {students.marline.course} here in University of global village
@@ -167,7 +167,7 @@ function Profile() {
           alt=""
         />
         <div className="">
-          <h2 className="pt-6 md:p-8 text-center md:text-left space-y-4 text-gray-900 text-3xl my-3">
+          <h2 className=" md:p-8 text-center md:text-left space-y-4 text-gray-900 text-3xl">
             {students.hosam.name} {students.hosam.clasOf}
           </h2>
           <p className="pt-6 md:p-8  space-y-4 text-bold">
@@ -192,10 +192,10 @@ function Profile() {
           alt=""
         />
         <div className="">
-          <h2 className="pt-6 md:p-8 text-center md:text-left space-y-4 text-gray-900 text-3xl my-3">
+          <h2 className=" md:px-8 text-center md:text-left space-y-4 text-gray-900 text-3xl">
             {students.luka.name} {students.luka.clasOf}
           </h2>
-          <p className="pt-6 md:p-8  space-y-4 text-bold">
+          <p className="pt-6 md:px-8  space-y-4 text-bold">
             Hi, I'm <strong>{students.luka.name}</strong> from{" "}
             {students.luka.country}, studying {students.luka.course} in
             university of global village(UGV). Concerntrating on Financial
@@ -217,7 +217,7 @@ function Profile() {
           alt=""
         />
         <div className="">
-          <h2 className="pt-6 md:p-8 text-center md:text-left space-y-4 text-gray-900 text-3xl my-3">
+          <h2 className=" md:p-8 text-center md:text-left space-y-4 text-gray-900 text-3xl">
             {students.emma.name} {students.emma.clasOf}
           </h2>
           <p className="pt-6 md:p-8  space-y-4 text-bold">
@@ -241,10 +241,10 @@ function Profile() {
           alt=""
         />
         <div className="">
-          <h2 className="pt-6 md:p-8 text-center md:text-left space-y-4 text-gray-900 text-3xl my-3">
+          <h2 className=" md:px-8 text-center md:text-left space-y-4 text-gray-900 text-3xl">
             {students.Baha.name} {students.Baha.clasOf}
           </h2>
-          <p className="pt-6 md:p-8  space-y-4 text-bold">
+          <p className="pt-6 md:px-8  space-y-4 text-bold">
             Hi, My name is <strong>{students.Baha.name}</strong> from{" "}
             {students.Baha.country}, studying {students.Baha.course} in
             university of global village(UGV). Concerntrating on Game
@@ -265,7 +265,7 @@ function Profile() {
           alt=""
         />
         <div className="">
-          <h2 className="pt-6 md:p-8 text-center md:text-left space-y-4 text-gray-900 text-3xl my-3">
+          <h2 className="md:p-8 text-center md:text-left space-y-4 text-gray-900 text-3xl ">
             {students.tigo.name} {students.tigo.clasOf}
           </h2>
           <p className="pt-6 md:p-8  space-y-4 text-bold">
@@ -289,10 +289,10 @@ function Profile() {
           alt=""
         />
         <div className="">
-          <h2 className="pt-6 md:p-8 text-center md:text-left space-y-4 text-gray-900 text-3xl my-3">
+          <h2 className="md:px-8 text-center md:text-left space-y-4 text-gray-900 text-3xl">
             {students.ben.name} {students.ben.clasOf}
           </h2>
-          <p className="pt-6 md:p-8  space-y-4 text-bold">
+          <p className="pt-6 md:px-8  space-y-4 text-bold">
             Hello, <strong>{students.ben.name}</strong> Here, I'm from{" "}
             {students.ben.country}, studying {students.ben.course} in university
             of global village(UGV). Concerntrating on application development
@@ -301,6 +301,7 @@ function Profile() {
             footballer and can take a hint on basket ball a times "Height
             advantage you know", anway thats it.
           </p>
+
           <button className="bg-gray-700 text-white hover:bg-gray-900 text-bold p-2 m-5">
             View Student Profile
           </button>

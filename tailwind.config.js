@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "home-bg": "url('/public/images/bg.jpeg)",
+        "home-bg": "url('https://buff.ly/3w4dCip')",
       },
       maxHeight: {
         bannerHeight: "28.5rem",

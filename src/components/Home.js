@@ -1,5 +1,5 @@
 import Banner from "./Banner";
-import Main from './Main'
+import Main from "./Main";
 
 function Home() {
   return (
@@ -8,8 +8,7 @@ function Home() {
         <div>
           <Banner />
         </div>
-        <img src="http://placehold.it/" alt="background"/>
-        <Main/>
+        <Main />
       </div>
     </div>
   );

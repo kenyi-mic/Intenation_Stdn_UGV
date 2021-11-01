@@ -1,48 +1,43 @@
-import React from 'react'
-import Header from './components/Header'
-import Home from './components/Home'
-import About from './components/About'
-import Profile from './components/Profile'
-import Gallery from './components/Gallery'
-import Contact from './components/Contact'
-import FAQ from './components/Faq'
-import {BrowserRouter as Router, Route, Link, Switch}from 'react-router-dom'
-import Footer from './components/Footer'
-
-
+import React from "react";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import About from "./components/About";
+import Profile from "./components/Profile";
+import Gallery from "./components/Gallery";
+import Contact from "./components/Contact";
+import FAQ from "./components/Faq";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import Footer from "./components/Footer";
 
 function App() {
- 
-
   return (
-    <div className="">
-     
+    <div className="bg-transparent">
       <Router>
-        <Header/>
-      <Switch>
+        <Header />
+        <Switch>
           <Route path="/about">
             <About />
           </Route>
           <Route path="/contact">
-            <Contact/>
+            <Contact />
           </Route>
           <Route path="/profile">
-            <Profile/>
+            <Profile />
           </Route>
           <Route path="/gallery">
-            <Gallery/>
+            <Gallery />
           </Route>
           <Route path="/faq">
-            <FAQ/>
+            <FAQ />
           </Route>
-          <Route path="/"> 
+          <Route path="/">
             <Home />
           </Route>
         </Switch>
       </Router>
-      <Footer/>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

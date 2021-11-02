@@ -7,6 +7,9 @@ module.exports = {
       backgroundImage: {
         "home-bg": "url('https://buff.ly/3w4dCip')",
       },
+      fontFamily: {
+        "font-head": "Courier New",
+      },
       maxHeight: {
         bannerHeight: "28.5rem",
       },

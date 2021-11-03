@@ -10,23 +10,23 @@ function Gallery() {
         </h1>
       </div>
       <h2>Beginning of the Journey - 2019</h2>
-      <div className="mx-auto">
+      <div className="mx-3">
         <div className="grid grid-row-dense md:grid-col m-3 grid-cols-4">
-          <div>
+          <div classname="mx-3">
             <img
               className="w-80 h-auto"
               src={galleryData.ninetheen.image0}
               alt="Palestine students-  UGV"
             />
             <div className="relative">
-              <h5 className="z-10 absolute bottom-20  text-xl  text-white inline-flex">
+              <h5 className="z-10 absolute bottom-20 left-20 text-xl  text-white inline-flex">
                 {galleryData.ninetheen.title0}
               </h5>
               <p>{galleryData.ninetheen.desc0}</p>
             </div>
           </div>
 
-          <div>
+          <div className="mx-3">
             <img
               className="w-80 h-60"
               src={galleryData.ninetheen.image1}
@@ -36,7 +36,7 @@ function Gallery() {
             <p>{galleryData.ninetheen.desc1}</p>
           </div>
 
-          <div>
+          <div className="mx-3">
             <img
               className="w-80 h-60"
               src={galleryData.ninetheen.image2}
@@ -45,7 +45,7 @@ function Gallery() {
             <h5>{galleryData.ninetheen.title2}</h5>
             <p>{galleryData.ninetheen.desc2}</p>
           </div>
-          <div>
+          <div className="mx-3">
             <img
               className="w-80 h-60"
               src={galleryData.ninetheen.image3}
@@ -54,7 +54,7 @@ function Gallery() {
             <h5>{galleryData.ninetheen.title3}</h5>
             <p>{galleryData.ninetheen.desc3}</p>
           </div>
-          <div>
+          <div className="mx-3">
             <img
               className="w-80 h-60"
               src={galleryData.ninetheen.image4}
@@ -63,7 +63,7 @@ function Gallery() {
             <h5>{galleryData.ninetheen.title4}</h5>
             <p>{galleryData.ninetheen.desc4}</p>
           </div>
-          <div>
+          <div className="mx-3">
             <img
               className="w-80 h-60"
               src={galleryData.ninetheen.image5}
@@ -72,7 +72,7 @@ function Gallery() {
             <h5>{galleryData.ninetheen.title5}</h5>
             <p>{galleryData.ninetheen.desc5}</p>
           </div>
-          <div>
+          <div className="mx-3">
             <img
               className="w-80 h-60"
               src={galleryData.ninetheen.image6}
@@ -81,7 +81,7 @@ function Gallery() {
             <h5>{galleryData.ninetheen.title6}</h5>
             <p>{galleryData.ninetheen.desc6}</p>
           </div>
-          <div>
+          <div className="mx-3">
             <img
               className="w-80 h-60"
               src={galleryData.ninetheen.image7}
@@ -93,7 +93,7 @@ function Gallery() {
         </div>
         <h2>Our jouney start getting intense and trickier, but lovely- 2020</h2>
         <div className="grid grid-row-dense md:grid-col m-3 grid-cols-4">
-          <div>
+          <div className="mx-3">
             <img
               className="w-80 h-60"
               src={galleryData.twenty.image0}
@@ -102,7 +102,7 @@ function Gallery() {
             <h5>{galleryData.twenty.title0}</h5>
             <p>{galleryData.twenty.desc0}</p>
           </div>
-          <div>
+          <div className="mx-3">
             <img
               className="w-80 h-60"
               src={galleryData.twenty.image1}
@@ -111,7 +111,7 @@ function Gallery() {
             <h5>{galleryData.twenty.title1}</h5>
             <p>{galleryData.twenty.desc1}</p>
           </div>
-          <div>
+          <div className="mx-3">
             <img
               className="w-80 h-60"
               src={galleryData.twenty.image2}
@@ -120,7 +120,7 @@ function Gallery() {
             <h5>{galleryData.twenty.title2}</h5>
             <p>{galleryData.twenty.desc2}</p>
           </div>
-          <div>
+          <div className="mx-3">
             <img
               className="w-80 h-60"
               src={galleryData.twenty.image3}
@@ -129,7 +129,7 @@ function Gallery() {
             <h5>{galleryData.twenty.title3}</h5>
             <p>{galleryData.twenty.desc3}</p>
           </div>
-          <div>
+          <div className="mx-3">
             <img
               className="w-80 h-60"
               src={galleryData.twenty.image4}
@@ -138,7 +138,7 @@ function Gallery() {
             <h5>{galleryData.twenty.title4}</h5>
             <p>{galleryData.twenty.desc4}</p>
           </div>
-          <div>
+          <div className="mx-3">
             <img
               className="w-80 h-60"
               src={galleryData.twenty.image5}
